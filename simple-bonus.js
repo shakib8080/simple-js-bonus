@@ -15,11 +15,11 @@
 forLoop(1);
  */
 
-function callFunction(i) {
-  if (i > 10) {
-    return;
-  }
-  console.log(i);
-  callFunction(i + 1);
-}
-callFunction(1);
+// function callFunction(i) {
+//   if (i > 10) {
+//     return;
+//   }
+//   console.log(i);
+//   callFunction(i + 1);
+// }
+// callFunction(1);
