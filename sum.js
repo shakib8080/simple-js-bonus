@@ -1,9 +1,9 @@
-//00
-//  let sum = 0;
-// for (let i = 5; i >= 1; i--) {
-//   sum = sum + i;
-// }
-// console.log(sum);
+// 00
+let sum = 0;
+for (let i = 5; i >= 1; i--) {
+  sum = sum + i;
+}
+console.log(sum);
 
 //1 revarse why  to sum ||jog with function
 
@@ -18,10 +18,10 @@
 
 // 2 revarse why  to factorial with function
 
-function factorial(i) {
-  if (i == 1) {
-    return 1;
-  }
-  return factorial(--i) * i;
-}
-console.log(factorial(5));
+// function factorial(i) {
+//   if (i == 1) {
+//     return 1;
+//   }
+//   return factorial(--i) * i;
+// }
+// console.log(factorial(5));
