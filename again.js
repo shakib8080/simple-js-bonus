@@ -117,13 +117,47 @@
 //   console.log(allnumber);
 // }
 
-var number = [50, 40, 44, 63, 35, 75, 35, 64, 46];
-for (var i = 0; i < number.length; i++) {
-  var allnumber = number[i];
-  // if (allnumber < 75) {
-  //   break;
-  // } else {
-  // //   continue;
-  // }
-  console.log(allnumber);
+// var number = [50, 40, 44, 63, 35, 75, 35, 64, 46];
+// for (var i = 0; i < number.length; i++) {
+//   var allnumber = number[i];
+//   // if (allnumber < 75) {
+//   //   break;
+//   // } else {
+//   // //   continue;
+//   // }
+//   console.log(allnumber);
+// }
+// var number = 3841;
+// function isodd(num) {
+//   if (num % 2 == 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(isodd(number));
+
+// function isleapyear(year) {
+//   if (year % 4 == 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// let MyYear = 2024;
+// console.log(isleapyear(MyYear));
+// let factorial = 1;
+// for (let i = 1; i <= 7; i++) {
+//   factorial = factorial * i;
+// }
+// console.log(factorial);
+
+function GetFectorial(num) {
+  let factorial = 1;
+  for (let i = 1; i <= num; i++) {
+    factorial = factorial * i;
+  }
+  return factorial;
 }
+let factorialIs = 6;
+console.log(GetFectorial(factorialIs));
